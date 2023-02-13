@@ -10,9 +10,11 @@ int main(){
 	}
 	sort(str.begin(),str.end());
 	for(int i=0;i<num;i++){
-		if(str[i]!=str[i+1]){
-			count++;
-		}
+		if(str[i]==str[i+1]){
+			continue;
+		}else{
+            count++;
+        }
 	}
 	if(count==26){
 		cout<<"YES"<<endl;
