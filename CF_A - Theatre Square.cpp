@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
-    long long count1=0,count2=0,len,wid,a;;
+    long long count1=0,count2=0,len,wid,a;
     cin>>len>>wid>>a;
     if(len==a && wid==a){
         printf("1\n");
